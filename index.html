@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kleverRetail Cloud</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 2.4rem;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+        p {
+            max-width: 600px;
+            text-align: center;
+            font-size: 1.1rem;
+            color: #cbd5e1;
+        }
+        .btn {
+            margin-top: 25px;
+            padding: 12px 22px;
+            background: #2563eb;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background: #1d4ed8;
+        }
+        .links {
+            margin-top: 40px;
+            display: flex;
+            gap: 20px;
+        }
+        .links a {
+            color: #93c5fd;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .links a:hover {
+            color: #bfdbfe;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>kleverRetail Cloud</h1>
+    <p>
+        Welcome to the kleverRetail Cloud backend.  
+        This service powers the cloud dashboard, API, and store sync system for kleverRetail v1.7.1.
+    </p>
+
+    <a class="btn" href="/stores">Enter Cloud Dashboard</a>
+
+    <div class="links">
+        <a href="/api/stores">API: Stores</a>
+        <a href="/api/items/HRG-001">API: Items</a>
+        <a href="/orders">Orders</a>
+        <a href="/staff">Staff</a>
+    </div>
+
+</body>
+</html>
